@@ -28,6 +28,6 @@ class FactorialCalculatorTest {
     @Test
     @DisplayName("Факториал числа 1 должен быть 1")
     void testFactorialOfOne() {
-        assertEquals(1, FactorialCalculator.factorial(1), "1! должно быть 1");
+        assertEquals(1, FactorialCalculator.factorial(2), "1! должно быть 1");
     }
 }

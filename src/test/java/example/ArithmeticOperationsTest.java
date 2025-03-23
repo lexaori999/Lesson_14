@@ -10,7 +10,7 @@ class ArithmeticOperationsTest {
     @Test
     @DisplayName("Сложение: 3 + 4 должно быть 7")
     void testAddition() {
-        assertEquals(7, ArithmeticOperations.add(3, 4), "3 + 4 должно быть 7");
+        assertEquals(7, ArithmeticOperations.add(4, 4), "3 + 4 должно быть 7");
     }
 
     @Test
